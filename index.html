@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#343a40">
+    <link rel="shotcut icon" href="https://res.cloudinary.com/phonerefer/image/upload/v1583302254/pwmeybdwt9kve16wf15y.png">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1.12.min.js"></script>
+    <title>Send-2-Ali</title>
+    <style>
+        body {
+            background-color: #89679e;
+
+        }
+
+        .container-1 {
+            margin-top: 150px;
+            text-align: center;
+            color: #f7d397;
+            font-size: 30px;
+            text-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+        }
+
+        .container-2 {
+            margin-top: 60px;
+            margin-left: 100px;
+            margin-right: 100px;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            color: #343a40;
+            background-color: #f7d397;
+            border: 2px solid #343a40;
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+        }
+
+        button {
+            width: 80px;
+            height: 25px;
+            border-radius: 3px;
+            border: none;
+            background-color: #89679e;
+            color: #f7d397;
+            border: 1.5px dotted #343a40;
+        }
+
+        button:hover {
+            border: 1.5px solid #343a40;
+            color: #343a40;
+        }
+
+        .custom-file-input::-webkit-file-upload-button {
+            width: 120px;
+            height: 25px;
+            border-radius: 3px;
+            background-color: #89679e;
+            border: none;
+            color: #f7d397;
+            border: 1.5px dotted #343a40;
+        }
+
+        .custom-file-input::-webkit-file-upload-button:hover {
+            border: 1.5px solid #343a40;
+            color: #343a40;
+        }
+
+        .container-3 {
+            text-align: center;
+            color: #f7d397;
+            text-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+        }
+
+        a {
+            color: #f7d397;
+            font-size: 18px;
+        }
+
+        a:hover {
+            color: #343a40;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .container-2 {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .container-1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-1">
+        <h1>Send It To <span>Irshad Ali</span></h1>
+    </div>
+    <div class="container-2">
+        <form action="">
+            <input type="file" class="custom-file-input" id="file-chooser">
+            <button id="upload-button">Submit</button>
+        </form>
+    </div>
+    <br>
+    <div id="results"></div>
+    <div class="container-3">
+        <p>Made With love by <a href="https://irshadali.site" target="_blank" rel="noopener">Irshad Ali</a></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
